@@ -629,7 +629,7 @@
     ctx.strokeStyle = T.barrel; ctx.lineWidth = R * 1.25; ctx.lineCap = 'round';
     ctx.beginPath(); ctx.moveTo(LX, LY); ctx.lineTo(LX + ax * R * 1.9, LY + ay * R * 1.9); ctx.stroke();
     ctx.fillStyle = T.barrel;
-    ctx.beginPath(); ctx.arc(LX, LY + 4, R * 1.25, 0, 6.2832); ctx.fill();
+    ctx.beginPath(); ctx.arc(LX, LY, R * 1.25, 0, 6.2832); ctx.fill();
     if (state === 'aim') drawBubble(ctx, LX, LY, R * 0.92, cur, 1);
 
     if (shot) drawBubble(ctx, shot.x, shot.y, R, shot.color, 1);
