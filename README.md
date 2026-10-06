@@ -4,6 +4,8 @@
 
 A browser bubble shooter. Bubbles hang from the top of the field and a cannon at the bottom shoots more of them. Bring three or more of one colour together and they pop. Clear the field before the rows come down to the cannon.
 
+**[Play in the browser](https://posoxai.github.io/Bubbles/)**
+
 <p>
   <img src="screenshots/day.png" width="300" alt="Bubbles in the light theme with the Russian interface: six rows of coloured bubbles, the cannon aimed up and to the left">
   <img src="screenshots/night.png" width="300" alt="The same game in the dark theme with the English interface, later in a game with fewer bubbles left">
@@ -48,13 +50,16 @@ The interface is in English and Russian. It opens in Russian when Russian is amo
 
 ## How to run
 
-The whole game is one file, `index.html`. There is no build step and there are no dependencies. Open `index.html` in a browser.
+The whole game is one file, `index.html`. There is no build step and there are no dependencies.
+
+- Locally: open `index.html` in a browser.
+- Online: the game is published with GitHub Pages at https://posoxai.github.io/Bubbles/. Every commit to `main` updates it automatically.
 
 Fonts load from Google Fonts. Without a network the game falls back to system fonts.
 
 ## Visit counter
 
-The page carries a [GoatCounter](https://www.goatcounter.com/) visit counter. According to the service, it sets no cookies and stores no personal data. The counter does not run when `index.html` is opened from disk.
+The published page counts visits with [GoatCounter](https://www.goatcounter.com/). According to the service, it sets no cookies and stores no personal data. The counter does not run when `index.html` is opened from disk.
 
 ## Credits
 
